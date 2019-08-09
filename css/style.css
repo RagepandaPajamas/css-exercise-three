@@ -19,3 +19,26 @@ nav {
 .restaurant-list {
   padding-top: 50px;
 }
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+h3 {
+  line-height: 1.5em;
+}
+.restaurant-list {
+  width: 50%;
+
+}
+.location {
+  display: inline;
+  float: left;
+}
+.content {
+  display: inline;
+  float: right;
+}
