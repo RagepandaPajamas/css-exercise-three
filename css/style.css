@@ -20,6 +20,11 @@ nav {
 .restaurant-list {
   padding-top: 50px;
   width: 100%;
+  background-color: #000000;
+
+}
+.location:hover {
+  background-color: #FFFFFF;
 }
 
 .content {
@@ -42,9 +47,11 @@ nav {
   display: inline;
   float: right;
   width: 10%;
+  padding-top: 10px;
 }
 
 .location {
   background-color: #888888;
   height: 45px;  /* Fixing the code */
+  padding: 5px;
 }
