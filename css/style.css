@@ -20,15 +20,14 @@ nav {
 .restaurant-list {
   padding-top: 50px;
   width: 100%;
-  background-color: #000000;
+  background-color: #222222;
 
 }
 .location:hover {
-  background-color: #FFFFFF;
+  background-color: #777777;
 }
 
 .content {
-  display: inline;
   float: left;
   width: 80%;
 }
@@ -44,7 +43,6 @@ nav {
 }
 
 .arrow {
-  display: inline;
   float: right;
   width: 10%;
   padding-top: 10px;
@@ -54,4 +52,7 @@ nav {
   background-color: #888888;
   height: 45px;  /* Fixing the code */
   padding: 5px;
+  border-bottom-color: #000000;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
 }
